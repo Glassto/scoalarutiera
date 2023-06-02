@@ -1,0 +1,16 @@
+
+
+
+.download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-title-text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: rgba(23, 41, 45, 1);
+}

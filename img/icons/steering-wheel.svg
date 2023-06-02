@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 66" width="66" height="66">
+	<title>steering-wheel-svg</title>
+	<defs>
+		<image  width="66" height="66" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCAgMAAACeOuh7AAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA/////v7+HKbOgwAAAAN0Uk5TAP//RFDWIQAAANNJREFUeJytlM0RAyEIheWwJdiPJXCAEtJ/C5lRHyKY7GYmXnbnEx7Kj6V8WKQqEQSkfbUFrkEkmqjyprIZVRCNTuZGi4iL1IbvkmnTuUFGpveLIcPYYsiYoPjvsJ7COP2UruvS1YK6HHAndkHqhFwSxi753NUD0a6WyUrvdSbVl4BOpD0k/I2UP5EfznNHnuVnIz2rN7VAvUIFc5UPnZC7JXdU7rqtMxU71r2CHzNmRMAxZtRrzJEbsDxNeeLcVOLweXLzdOMFcOkt0eT0kuTXxq83e4uI5ZHoqNkAAAAASUVORK5CYII="/>
+		<image  width="66" height="58" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAA6AQMAAAA+6x0HAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAZUlEQVR4nNXOwQ2AIAwF0BoPHDsCozCajOYojsCRA+FrLY0JGK7Gnl7atP1Ev6wFOFQbgChwF5BFLCq9qjcVNmU3Kr30HtnuKpc1QgCqZuH27B6nPikBO1no2BRAg3ydictMX9QJH71U9uA6vikAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<g id="Layer">
+		<use id="Layer" href="#img1" x="0" y="0"/>
+		<use id="Layer" href="#img2" x="0" y="8"/>
+	</g>
+</svg>

@@ -1,0 +1,106 @@
+
+
+
+.steps-title {
+  display: flex;
+  justify-content: center;
+}
+.steps-title-text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  color: rgba(23, 41, 45, 1);
+}
+
+.four-steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-1,
+.step-2,
+.step-3,
+.step-4 { 
+  width: 220px;
+  height: 80px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: white;
+  box-shadow: 0px 0px 8px -2px rgba(70, 155, 56, 0.8);
+  border-radius: 14px;
+}
+.step-2 {
+  box-shadow: 0px 0px 8px -2px rgba(254, 158, 105, 1);
+}
+.step-3 {
+  box-shadow: 0px 0px 8px -2px rgba(46, 160, 185, 0.8);
+}
+.step-4 {
+  box-shadow: 0px 0px 6px -2px rgba(237, 59, 59, 1);
+}
+
+
+
+
+.step-1-button,
+.step-2-button,
+.step-3-button,
+.step-4-button {
+  width: 30px;
+  height: 30px;
+  margin-top: -22px;
+
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 14px;
+  box-shadow: 0px 2px 4px -2px rgba(70, 155, 56, 1);
+  background-color: rgba(70, 155, 56, 1);
+
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+}
+.step-2-button {
+  background-color: rgba(254, 158, 105, 1);
+}
+.step-3-button {
+  background-color: rgba(46, 160, 185, 1); 
+}
+.step-4-button {
+  background-color: rgba(237, 59, 59, 1);
+}
+
+
+
+
+.step-1-text,
+.step-2-text,
+.step-3-text,
+.step-4-text {
+  margin-top: 14px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.6;
+  color: rgba(70, 155, 56, 1);
+}
+.step-2-text {
+  color: rgba(254, 158, 105, 1);
+}
+.step-3-text {
+  color: rgba(46, 160, 185, 1);
+}
+.step-4-text {
+  color: rgba(237, 59, 59, 1);
+}
