@@ -1,13 +1,14 @@
 @font-face {
-  font-family: "Mici";
-  src: url("http://127.0.0.1:5500/public/fonts/gilroy-extrabold-webfont.woff")
+  font-family: "GilroyBold";
+  src: url("https://glassto.github.io/scoalarutiera/public/fonts/gilroy-extrabold-webfont.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "GilroyLight";
-  src: url("gilroy-light-webfont.woff") format("woff");
+  src: url("https://glassto.github.io/scoalarutiera/public/fonts/gilroy-light-webfont.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
