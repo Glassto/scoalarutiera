@@ -16,7 +16,7 @@
 </g>
 <g filter="url(#filter5_d_327_119)">
 <ellipse cx="81.3207" cy="71" rx="26.1367" ry="26" fill="url(#paint2_linear_327_119)" shape-rendering="crispEdges"/>
-<path d="M106.957 71C106.957 85.0808 95.482 96.5 81.3207 96.5C67.1595 96.5 55.6841 85.0808 55.6841 71C55.6841 56.9192 67.1595 45.5 81.3207 45.5C95.482 45.5 106.957 56.9192 106.957 71Z" stroke="url(#paint3_linear_327_119)" shape-rendering="crispEdges"/>
+<ellipse cx="81.3207" cy="71" rx="26.1367" ry="26" stroke="url(#paint3_linear_327_119)" shape-rendering="crispEdges"/>
 </g>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M77.6334 66.6256C77.6334 64.6233 79.2566 63 81.259 63C83.2614 63 84.8847 64.6233 84.8847 66.6256C84.8847 68.628 83.2614 70.2513 81.259 70.2513C79.2566 70.2513 77.6334 68.628 77.6334 66.6256ZM77.7582 71.7521C75.2724 71.7521 73.2573 73.7672 73.2573 76.253C73.2573 77.772 74.4887 79.0034 76.0078 79.0034H86.5103C88.0293 79.0034 89.2607 77.772 89.2607 76.253C89.2607 73.7672 87.2456 71.7521 84.7599 71.7521H77.7582Z" fill="url(#paint4_linear_327_119)"/>
 <defs>
@@ -45,7 +45,7 @@
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_327_119"/>
 </filter>
-<filter id="filter5_d_327_119" x="51.1841" y="41" width="60.2734" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter5_d_327_119" x="50.6841" y="40.5" width="61.2734" height="61" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feMorphology radius="2" operator="erode" in="SourceAlpha" result="effect1_dropShadow_327_119"/>

@@ -1,9 +1,5 @@
 @font-face {
   font-family: "GilroyBold";
-  src: url("http://127.0.0.1:5500/public/fonts/gilroy-extrabold-webfont.woff")
-    format("woff");
-  src: url("http://192.168.1.109:5500/public/fonts/gilroy-extrabold-webfont.woff")
-    format("woff");
   src: url("https://glassto.github.io/scoalarutiera/public/fonts/gilroy-extrabold-webfont.woff")
     format("woff");
   font-weight: normal;
@@ -18,7 +14,10 @@
 
 /* Afiseaza ecranul dispozitivului curent */
 .device-screen {
-  width: 100%;
+  width: 40%;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: fixed;
   bottom: 0;
   z-index: 3;
@@ -26,10 +25,15 @@
 }
 .screenS,
 .screenM,
-.screenL {
+.screenL,
+.tablet,
+.laptop,
+.desktop {
   display: none;
   padding: 6px;
   background-color: #3f7fca;
+  margin: 0;
+  border-radius: 4px;
 
   font-family: Rubik;
   font-size: 10px;
@@ -51,6 +55,24 @@
 /* Mobile L */
 @media (min-width: 425px) and (max-width: 525px) {
   .screenL {
+    display: block;
+  }
+}
+/* Tablets */
+@media (min-width: 525px) and (max-width: 768px) {
+  .tablet {
+    display: block;
+  }
+}
+/* Laptop */
+@media (min-width: 768px) and (max-width: 1025px) {
+  .laptop {
+    display: block;
+  }
+}
+/* Laptop */
+@media (min-width: 1025px) {
+  .desktop {
     display: block;
   }
 }

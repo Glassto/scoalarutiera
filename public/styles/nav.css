@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
 
-  margin: 0 20px 0 20px;
+  margin: 0 16px 0 16px;
 }
 .navbar {
   position: fixed;
@@ -39,6 +39,7 @@
   background-color: transparent;
 
   font-family: Satoshi;
+  font-weight: 500;
 }
 .nav-login-btn {
   border-style: none;
@@ -53,7 +54,7 @@
 }
 
 /* Mobile S */
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .logo-svg {
     height: 24px;
   }
@@ -74,6 +75,12 @@
 }
 /* Mobile M */
 @media (min-width: 375px) and (max-width: 425px) {
+  .logo-svg {
+    height: 24px;
+  }
+  .logo-text {
+    font-size: 18px;
+  }
   .nav-actions-desktop {
     display: none;
   }
@@ -81,6 +88,9 @@
     display: flex;
     align-items: center;
     gap: 14px;
+  }
+  .nav-actions-mobile img {
+    height: 22px;
   }
 }
 /* Mobile L */
@@ -100,4 +110,13 @@
 }
 /* Laptop */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .nav-content {
+    margin: 0 32px 0 32px;
+  }
+}
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .nav-content {
+    margin: 0 32px 0 32px;
+  }
 }
