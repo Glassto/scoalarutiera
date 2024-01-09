@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "GilroyBold";
+  src: url("http://127.0.0.1:5500/public/fonts/gilroy-extrabold-webfont.woff")
+    format("woff");
+  src: url("http://192.168.1.109:5500/public/fonts/gilroy-extrabold-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GilroyLight";
+  src: url("gilroy-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Afiseaza ecranul dispozitivului curent */
+.device-screen {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+.screenS,
+.screenM,
+.screenL {
+  display: none;
+  padding: 6px;
+  background-color: #3f7fca;
+
+  font-family: Rubik;
+  font-size: 10px;
+  color: #0e427f;
+}
+
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 375px) {
+  .screenS {
+    display: block;
+  }
+}
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 425px) {
+  .screenM {
+    display: block;
+  }
+}
+/* Mobile L */
+@media (min-width: 425px) and (max-width: 525px) {
+  .screenL {
+    display: block;
+  }
+}

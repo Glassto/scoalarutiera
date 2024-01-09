@@ -4,14 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ScoalaRutieră</title>
-    <link rel="stylesheet" href="public/styles/stylesheet.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@500,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/styles/main.css" />
+    <link rel="stylesheet" href="public/styles/nav.css" />
+    <link rel="stylesheet" href="public/styles/presentation.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+      body {
+        margin: 0;
+        background-color: #fafafa;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <img src="" alt="" />
-        <h1 style="font-family: GilroyBold">ScoalaRutiera</h1>
+    <display class="device-screen">
+      <p class="screenS">Device: Small Mobile</p>
+      <p class="screenM">Device: Medium Mobile</p>
+      <p class="screenL">Device: Large Mobile</p>
+    </display>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <img class="logo-svg" src="public/img/icons/logo.svg" alt="" />
+          <h1 class="logo-text">ȘcoalaRutieră</h1>
+        </div>
+        <!-- <div class="quick-menu"> 
+        <button>Acasă</button>
+        <button>Blog</button>
+        <button>Contact</button>
+      </div>  -->
+        <div class="nav-actions-desktop">
+          <button class="nav-signup-btn">Înregistrare</button>
+          <button class="nav-login-btn">Conectare</button>
+        </div>
+        <div class="nav-actions-mobile">
+          <img src="public/img/icons/account.svg" alt="" />
+          <img src="public/img/icons/menu.svg" alt="" />
+        </div>
       </div>
     </nav>
+    <div class="pr">
+      <div class="pr-text">
+        <h1>Chestionare Auto Explicate</h1>
+        <p>
+          Învață rapid și eficient pentru examenul auto cu ajutorul
+          chestionarelor DRPCIV, actualizate conform ultimelor reglementări.
+        </p>
+        <button class="pr-signup-btn">Înregistrare</button>
+        <button class="pr-login-btn">Conectare</button>
+      </div>
+      <div class="pr-user-illustration">
+        <img src="public/img/images/user-illustration.svg" alt="" />
+      </div>
+    </div>
   </body>
 </html>
