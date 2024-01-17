@@ -1,0 +1,72 @@
+.line {
+  margin: 16px 32px 16px 32px;
+
+  height: 0.8px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.09) 0%,
+    rgba(23, 41, 45, 0.6) 30.53%,
+    rgba(23, 41, 45, 0.6) 71.67%,
+    rgba(0, 0, 0, 0.09) 99.26%
+  );
+}
+.store-links {
+  margin: 0 32px 0 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.store-links img {
+  height: 48px;
+}
+.store-links p {
+  display: none;
+  margin: 0;
+  color: #17292d;
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 375px) {
+  .store-links img {
+    height: 24px;
+  }
+}
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 425px) {
+  .store-links img {
+    height: 29px;
+  }
+}
+/* Mobile L */
+@media (min-width: 425px) and (max-width: 525px) {
+  .store-links img {
+    height: 34px;
+  }
+}
+/* Tablets */
+@media (min-width: 525px) and (max-width: 768px) {
+  .store-links img {
+    height: 40px;
+  }
+}
+/* Laptop */
+@media (min-width: 768px) and (max-width: 1025px) {
+  .store-links img {
+    height: 42px;
+  }
+  .store-links p {
+    display: block;
+    font-size: 26px;
+  }
+}
+/* Desktop */
+@media (min-width: 1025px) {
+  .store-links p {
+    display: block;
+  }
+}

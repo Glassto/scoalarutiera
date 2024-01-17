@@ -11,12 +11,29 @@
     <link rel="stylesheet" href="public/styles/main.css" />
     <link rel="stylesheet" href="public/styles/nav.css" />
     <link rel="stylesheet" href="public/styles/presentation.css" />
+    <link rel="stylesheet" href="public/styles/download.css" />
+    <link rel="stylesheet" href="public/styles/categories.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
       body {
         margin: 0;
         margin-bottom: 500px;
         background-color: #fafafa;
+      }
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 2px rgb(156, 156, 156);
+        border-radius: 4px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(97deg, #17292d 32.77%, #1f4149 96.16%);
+        border-radius: 4px;
       }
     </style>
   </head>
@@ -54,8 +71,9 @@
       <div class="pr-text">
         <h1>Chestionare Auto Explicate</h1>
         <p>
-          Învață rapid și eficient pentru examenul auto cu ajutorul
-          chestionarelor DRPCIV, actualizate conform ultimelor reglementări.
+          Învață rapid și eficient pentru examenul<br />
+          auto cu ajutorul chestionarelor DRPCIV,<br />
+          actualizate conform ultimelor reglementări.
         </p>
         <button class="pr-signup-btn">Înregistrare</button>
         <button class="pr-login-btn">Conectare</button>
@@ -64,5 +82,100 @@
         <img src="public/img/images/user-illustration.svg" alt="" />
       </div>
     </div>
+    <div class="download-on-mobile">
+      <div class="line"></div>
+      <div class="store-links">
+        <p>Descarcă aplicația:</p>
+        <img src="public/img/icons/get on GP.svg" alt="" />
+        <img src="public/img/icons/get on AP.svg" alt="" />
+        <img src="public/img/icons/get on AG.svg" alt="" />
+      </div>
+      <div class="line"></div>
+    </div>
+    <categories>
+      <div class="categories-title">
+        <h3>Alege Categoria:</h3>
+      </div>
+      <div class="categories-cards">
+        <div class="card">
+          <img src="public/img/images/catA-img.svg" alt="" />
+          <p><strong>A</strong>, A1, A2</p>
+          <h4>16 - 24 ani</h4>
+          <h6>
+            Motociclete cu / fără ataș și tricicluri cu motor cu puterea de
+            peste 15 kW
+          </h6>
+          <button class="categories-buttons">
+            <h5>ÎNCEPE</h5>
+            <img class="arrow" src="public/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="card">
+          <img src="public/img/images/catB-img.svg" alt="" />
+          <p><strong>B</strong>, B1</p>
+          <h4>16 - 18 ani</h4>
+          <h6>
+            Autovehiculul a cărui masă totală maximă autorizată nu
+            depășește 3.500 kg
+          </h6>
+          <button class="categories-buttons">
+            <h5>ÎNCEPE</h5>
+            <img class="arrow" src="public/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="card">
+          <img src="public/img/images/catC-img.svg" alt="" />
+          <p><strong>C</strong>, C1</p>
+          <h4>18 - 21 ani</h4>
+          <h6>
+            Autovehiculul a cărui masă totală maximă autorizată este mai mare de
+            3.500 kg
+          </h6>
+          <button class="categories-buttons">
+            <h5>ÎNCEPE</h5>
+            <img class="arrow" src="public/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="card">
+          <img src="public/img/images/catD-img.svg" alt="" />
+          <p><strong>D</strong>, D1, Tb, Tv</p>
+          <h4>21 - 24 ani</h4>
+          <h6>
+            Autovehiculul destinat transportului de persoane având mai mult de 8
+            locuri
+          </h6>
+          <button class="categories-buttons">
+            <h5>ÎNCEPE</h5>
+            <img class="arrow" src="public/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="card">
+          <img src="public/img/images/catE-img.svg" alt="" />
+          <p>BE, CE, DE..</p>
+          <h4>18 - 24 ani</h4>
+          <h6>
+            Ansamblul de vehicule a căror masă totală maximă autorizată
+            depășește 4.250 kg
+          </h6>
+          <button class="categories-buttons">
+            <h5>ÎNCEPE</h5>
+            <img class="arrow" src="public/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="card">
+          <img src="public/img/images/catTr-img.svg" alt="" />
+          <p><strong>Tr</strong></p>
+          <h4>18 - 21 ani</h4>
+          <h6>
+            Autovehiculul a cărui masă totală maximă autorizată este mai mare de
+            3.500
+          </h6>
+          <button class="categories-buttons">
+            <h5>ÎNCEPE</h5>
+            <img class="arrow" src="public/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </categories>
   </body>
 </html>
