@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="public/styles/presentation.css" />
     <link rel="stylesheet" href="public/styles/download.css" />
     <link rel="stylesheet" href="public/styles/categories.css" />
+    <link rel="stylesheet" href="public/styles/about.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
       body {
         margin: 0;
         margin-bottom: 500px;
-        background-color: #fafafa;
+        background-color: #fcfcfc;
       }
       ::-webkit-scrollbar {
         width: 5px;
@@ -49,7 +50,7 @@
     <nav class="navbar">
       <div class="nav-content">
         <div class="logo">
-          <img class="logo-svg" src="public/img/icons/logo.svg" alt="" />
+          <object class="logo-svg" data="public/img/icons/logo.svg"></object>
           <h1 class="logo-text">ȘcoalaRutieră</h1>
         </div>
         <!-- <div class="quick-menu"> 
@@ -69,7 +70,10 @@
     </nav>
     <div class="pr">
       <div class="pr-text">
-        <h1>Chestionare Auto Explicate</h1>
+        <h1>
+          Chestionare<br />
+          Auto Explicate
+        </h1>
         <p>
           Învață rapid și eficient pentru examenul<br />
           auto cu ajutorul chestionarelor DRPCIV,<br />
@@ -79,7 +83,7 @@
         <button class="pr-login-btn">Conectare</button>
       </div>
       <div class="pr-user-illustration">
-        <img src="public/img/images/user-illustration.svg" alt="" />
+        <object data="public/img/images/user-illustration.svg"></object>
       </div>
     </div>
     <div class="download-on-mobile">
@@ -93,8 +97,8 @@
       <div class="line"></div>
     </div>
     <categories>
-      <div class="categories-title">
-        <h3>Alege Categoria:</h3>
+      <div class="section-title">
+        <h3>Alege categoria:</h3>
       </div>
       <div class="categories-cards">
         <div class="card">
@@ -176,6 +180,47 @@
           </button>
         </div>
       </div>
+      <div class="external-category">
+        <div class="bigcard">
+          <img src="public/img/images/catARR-img.svg" alt="" />
+          <p><strong>ARR</strong> Atestate</p>
+          <h6 style="margin-top: 14px">
+            Pregătește-te pentru obținerea atestatului ARR/ADR cu ajutorul
+            <strong>arr-atestate.ro</strong>
+          </h6>
+          <button class="categories-buttons">
+            <h5>ACCESEAZA</h5>
+            <img
+              class="arrow"
+              src="public/img/icons/external-link.svg"
+              alt=""
+            />
+          </button>
+        </div>
+      </div>
     </categories>
+    <about>
+      <div class="section-title">
+        <h3>Despre cei 4 pași:</h3>
+      </div>
+      <div class="about-buttons">
+        <button class="st-about-btn">
+          <p>1</p>
+          <h4>Curs de Legislație</h4>
+        </button>
+        <button class="nd-about-btn">
+          <p>2</p>
+          <h4>Indicatoare <span class="additional-txt">DRPCIV</span></h4>
+        </button>
+        <button class="rd-about-btn">
+          <p>3</p>
+          <h4>Mediu de Învățare</h4>
+        </button>
+        <button class="th-about-btn">
+          <p>4</p>
+          <h4>Chestionare <span class="additional-txt">DRPCIV</span></h4>
+        </button>
+      </div>
+    </about>
   </body>
 </html>
