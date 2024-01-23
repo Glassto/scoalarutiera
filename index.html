@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ScoalaRutieră</title>
     <link
-      href="https://api.fontshare.com/v2/css?f[]=satoshi@500,300,400&display=swap"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@600,500,300,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="public/styles/main.css" />
@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="public/styles/download.css" />
     <link rel="stylesheet" href="public/styles/categories.css" />
     <link rel="stylesheet" href="public/styles/about.css" />
+    <script src="script/main.js" defer></script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap");
       body {
         margin: 0;
         margin-bottom: 500px;
@@ -102,7 +103,7 @@
       </div>
       <div class="categories-cards">
         <div class="card">
-          <img src="public/img/images/catA-img.svg" alt="" />
+          <object data="public/img/images/catA-img.svg"></object>
           <p><strong>A</strong>, A1, A2</p>
           <h4>16 - 24 ani</h4>
           <h6>
@@ -115,7 +116,7 @@
           </button>
         </div>
         <div class="card">
-          <img src="public/img/images/catB-img.svg" alt="" />
+          <object data="public/img/images/catB-img.svg"></object>
           <p><strong>B</strong>, B1</p>
           <h4>16 - 18 ani</h4>
           <h6>
@@ -128,7 +129,7 @@
           </button>
         </div>
         <div class="card">
-          <img src="public/img/images/catC-img.svg" alt="" />
+          <object data="public/img/images/catC-img.svg"></object>
           <p><strong>C</strong>, C1</p>
           <h4>18 - 21 ani</h4>
           <h6>
@@ -141,7 +142,7 @@
           </button>
         </div>
         <div class="card">
-          <img src="public/img/images/catD-img.svg" alt="" />
+          <object data="public/img/images/catD-img.svg"></object>
           <p><strong>D</strong>, D1, Tb, Tv</p>
           <h4>21 - 24 ani</h4>
           <h6>
@@ -154,7 +155,7 @@
           </button>
         </div>
         <div class="card">
-          <img src="public/img/images/catE-img.svg" alt="" />
+          <object data="public/img/images/catE-img.svg"></object>
           <p>BE, CE, DE..</p>
           <h4>18 - 24 ani</h4>
           <h6>
@@ -167,7 +168,7 @@
           </button>
         </div>
         <div class="card">
-          <img src="public/img/images/catTr-img.svg" alt="" />
+          <object data="public/img/images/catTr-img.svg"></object>
           <p><strong>Tr</strong></p>
           <h4>18 - 21 ani</h4>
           <h6>
@@ -182,11 +183,11 @@
       </div>
       <div class="external-category">
         <div class="bigcard">
-          <img src="public/img/images/catARR-img.svg" alt="" />
+          <object data="public/img/images/catARR-img.svg"></object>
           <p><strong>ARR</strong> Atestate</p>
           <h6 style="margin-top: 14px">
             Pregătește-te pentru obținerea atestatului ARR/ADR cu ajutorul
-            <strong>arr-atestate.ro</strong>
+            <br /><strong>arr-atestate.ro</strong>
           </h6>
           <button class="categories-buttons">
             <h5>ACCESEAZA</h5>
@@ -204,22 +205,27 @@
         <h3>Despre cei 4 pași:</h3>
       </div>
       <div class="about-buttons">
-        <button class="st-about-btn">
+        <button class="st-about-btn btn" onclick="focusButtons(0)">
           <p>1</p>
           <h4>Curs de Legislație</h4>
         </button>
-        <button class="nd-about-btn">
+        <button class="nd-about-btn btn" onclick="focusButtons(1)">
           <p>2</p>
           <h4>Indicatoare <span class="additional-txt">DRPCIV</span></h4>
         </button>
-        <button class="rd-about-btn">
+        <button class="rd-about-btn btn" onclick="focusButtons(2)">
           <p>3</p>
           <h4>Mediu de Învățare</h4>
         </button>
-        <button class="th-about-btn">
+        <button class="th-about-btn btn" onclick="focusButtons(3)">
           <p>4</p>
           <h4>Chestionare <span class="additional-txt">DRPCIV</span></h4>
         </button>
+      </div>
+      <div id="changeable-text" class="about-informations">
+        Găsești toată legislația și teoria structurată <span>pe 5 cursuri</span
+        >, cel mai important fiind cursul de legislație rutieră -
+        <span>explicat prin animații 3D</span>
       </div>
     </about>
   </body>

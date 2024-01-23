@@ -2,7 +2,8 @@
   display: grid;
   gap: 8px;
   grid-template-columns: repeat(2, 1fr);
-  margin: 30px 16px 0 16px;
+  margin: 30px 32px 0 32px;
+  transition: 0s 180s;
 }
 .about-buttons button {
   display: flex;
@@ -11,6 +12,7 @@
   justify-content: center;
 
   font-family: Rubik;
+  font-weight: 700;
   font-size: 12px;
   border-radius: 10px;
   border-style: none;
@@ -19,7 +21,8 @@
   padding: 12px 20px;
 }
 .about-buttons button p {
-  padding: 3px 6px;
+  font-family: Rubik;
+  padding: 4px 6px;
   margin: 0;
   border-radius: 4px;
   font-size: 10px;
@@ -52,6 +55,25 @@
 .th-about-btn h4 {
   color: #ed3b3b;
 }
+
+.about-informations {
+  margin: 24px 16px 0 16px;
+  border-radius: 10px;
+  padding: 24px 36px;
+
+  font-family: Satoshi;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  line-height: 24px;
+
+  background-color: white;
+  box-shadow: 0px 0px 4px -2px rgb(114, 114, 114) inset;
+}
+.about-informations span {
+  font-weight: 600;
+}
 /* Mobile S */
 @media (min-width: 320px) and (max-width: 375px) {
   .about-buttons {
@@ -79,6 +101,9 @@
   .additional-txt {
     display: none;
   }
+  .about-informations {
+    font-size: 16px;
+  }
 }
 
 /* Tablets */
@@ -90,12 +115,14 @@
     font-size: 14px;
     padding: 16px 20px;
   }
+  .about-informations {
+    font-size: 18px;
+  }
 }
 /* Laptop */
 @media (min-width: 768px) and (max-width: 1024px) {
   .about-buttons {
     grid-template-columns: repeat(4, 1fr);
-    margin: 30px 32px 0 32px;
   }
   .about-buttons button {
     font-size: 16px;
@@ -106,10 +133,14 @@
 @media (min-width: 1025px) {
   .about-buttons {
     grid-template-columns: repeat(4, 1fr);
-    margin: 30px 32px 0 32px;
   }
   .about-buttons button {
     font-size: 18px;
     padding: 20px 20px;
+  }
+  .about-informations {
+    margin: 24px 32px 0 32px;
+    font-size: 20px;
+    padding: 28px 68px;
   }
 }

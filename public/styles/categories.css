@@ -33,6 +33,15 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-out;
+}
+.card:hover,
+.bigcard:hover {
+  box-shadow: 0 3px 0 0 #17292d; /* Border bottom */
+  box-shadow: 0 -3px 0 0 #17292d; /* Border top */
+  box-shadow: -3px 0 0 0 #17292d; /* Border left */
+  box-shadow: 3px 0 0 0 #17292d; /* Border right */
+  box-shadow: 0 0 0 3px #17292d; /* All the borders by using the spread properties */
 }
 .card img,
 .bigcard img {
@@ -75,6 +84,12 @@
   border-style: none;
   border-radius: 10px;
   padding: 8px 8px 8px 12px;
+  transition: all 0.2s ease-out;
+}
+.categories-buttons:hover {
+  box-shadow: -16px 0 0 0 white; /* Border left */
+  box-shadow: 16px 0 0 0 white; /* Border right */
+  box-shadow: 0 0 0 16px white; /* All the borders by using the spread properties */
 }
 .categories-buttons h5 {
   font-family: GilroyBold;
@@ -218,6 +233,7 @@
   }
   .categories-buttons {
     padding: 10px 10px 10px 14px;
+    bottom: -22px;
   }
   .categories-buttons h5 {
     font-size: 16px;
