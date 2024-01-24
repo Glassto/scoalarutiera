@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 103px 32px 40px 32px;
   padding: 40px;
 
   border-radius: 14px;
@@ -15,7 +14,6 @@
 }
 .pr-text h1 {
   font-family: GilroyBold;
-  font-size: 40px;
   color: #17292d;
   margin: 0;
   width: 320px;
@@ -24,7 +22,6 @@
 .pr-text p {
   font-family: Satoshi;
   font-weight: 400;
-  font-size: 16px;
   color: #17292d;
 
   margin: 8px 0 40px 0;
@@ -34,7 +31,6 @@
 .pr-signup-btn {
   border-style: none;
   border-radius: 14px;
-  padding: 14px 28px;
   margin-right: 20px;
 
   background: #fafafa;
@@ -46,8 +42,6 @@
 }
 .pr-login-btn {
   border-style: none;
-  border-radius: 14px;
-  padding: 14px 28px;
 
   background: linear-gradient(97deg, #17292d 32.77%, #1f4149 96.16%);
   color: white;
@@ -196,17 +190,51 @@
 }
 /* Laptop */
 @media (min-width: 768px) and (max-width: 1025px) {
+  .pr {
+    margin: 103px 32px 40px 32px;
+  }
+  .pr-text h1 {
+    font-size: 40px;
+  }
+  .pr-text p {
+    font-size: 16px;
+  }
   .pr-user-illustration object {
     height: 260px;
     margin-right: 106px;
   }
+  .pr-signup-btn {
+    padding: 14px 28px;
+    margin-right: 20px;
+  }
+  .pr-login-btn {
+    border-radius: 14px;
+    padding: 14px 28px;
+  }
 }
 /* Desktop */
 @media (min-width: 1025px) {
+  .pr {
+    margin: 103px 32px 40px 32px;
+  }
+  .pr-text h1 {
+    font-size: 40px;
+  }
+  .pr-text p {
+    font-size: 16px;
+  }
   .pr-user-illustration object {
     height: 260px;
     overflow-y: hidden;
     margin-right: 220px;
+  }
+  .pr-signup-btn {
+    padding: 14px 28px;
+    margin-right: 20px;
+  }
+  .pr-login-btn {
+    border-radius: 14px;
+    padding: 14px 28px;
   }
 }
 /* Exceptions */

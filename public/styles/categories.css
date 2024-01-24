@@ -37,14 +37,10 @@
 }
 .card:hover,
 .bigcard:hover {
-  box-shadow: 0 3px 0 0 #17292d; /* Border bottom */
-  box-shadow: 0 -3px 0 0 #17292d; /* Border top */
-  box-shadow: -3px 0 0 0 #17292d; /* Border left */
-  box-shadow: 3px 0 0 0 #17292d; /* Border right */
   box-shadow: 0 0 0 3px #17292d; /* All the borders by using the spread properties */
 }
-.card img,
-.bigcard img {
+.card object,
+.bigcard object {
   height: 44px;
 }
 .card p,
@@ -118,8 +114,8 @@
     font-size: 24px;
     margin: 10px 0 0 0;
   }
-  .card img,
-  .bigcard img {
+  .card object,
+  .bigcard object {
     height: 36px;
   }
   .card p,
@@ -215,8 +211,8 @@
   .card {
     padding: 28px 56px 0 56px;
   }
-  .card img,
-  .bigcard img {
+  .card object,
+  .bigcard object {
     height: 70px;
   }
   .card p,
